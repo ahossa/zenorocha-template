@@ -7,8 +7,8 @@ import { useKBar } from 'kbar'
 export async function getStaticProps() {
   return {
     props: {
-      title: 'Zeno Rocha',
-      description: 'Building world-class products that make developers happy',
+      title: 'Asif Bin Hossain',
+      description: 'Building world-class Software systems for Products on Hypergrowth 💹',
       image: '/static/images/home-bw.jpg',
     },
   }
@@ -65,7 +65,7 @@ function Home(props) {
           <div className="post-container">
             <div className="single">
               <h1>{title}</h1>
-              <p><strong>VP of Developer Experience at WorkOS</strong>.<br/>
+              <p><strong>Software Development Engineer @Thinktum</strong>.<br/>
               {description}.</p>
               {renderShorcut()}
             </div>
