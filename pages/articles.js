@@ -20,7 +20,7 @@ export async function getStaticProps() {
   return {
     props: {
       title: 'Articles // Zeno Rocha',
-      tagline: 'Stories. Updates. Guides.',
+      tagline: 'Stories. Updates. Guides. Stuffs. Dreams',
       image: '/static/images/articles-bw.jpg',
       gradientColor: 'yellow-pink',
       selectionColor: 'orange',
@@ -32,8 +32,7 @@ export async function getStaticProps() {
 function Articles(props) {
   const renderFeatured = () => {
     const featured = [
-      'what-ive-learned-after-giving-100-talks',
-      'the-technology-stack-i-used-to-build-my-first-mobile-app',
+      'awesome-title'
     ]
 
     return props.allPosts
