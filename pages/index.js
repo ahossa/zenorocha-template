@@ -9,7 +9,7 @@ export async function getStaticProps() {
     props: {
       title: 'Asif Bin Hossain',
       description: 'Building world-class Software systems for Products on Hypergrowth 💹',
-      image: '/static/images/home-bw.jpg',
+      image: '/static/images/evan-pp.jpg',
     },
   }
 }

@@ -8,10 +8,10 @@ import items from '../data/about'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'About // Zeno Rocha',
-    description: "<p><strong>Hey, I'm Zeno Rocha.</strong> I started as a software engineer back in 2009, working with Flash.</p><p>I'm currently the <strong>VP of Developer Experience</strong> at WorkOS. Before that, I was the CPO at Liferay Cloud. I'm originally from Brazil and now <strong>living in sunny California</strong> with my amazing wife and beautiful daughter.</p><p><strong>I love dark mode</strong>, open source, and side projects. When I'm not working, I like running, watching movies, and <strong>eating cheese</strong>.</p>",
-    tagline: 'Create. Share. Repeat.',
-    image: '/static/images/about-bw.jpg',
+    title: 'About // Asif Bin Hossain',
+    description: "<p><strong>Hey, I'm Asif Bin Hossain.</strong> I'm an Aerospace engineering Graduate & working as a Software Developement Engineer now. I started my career as a Software Engineer back in 2014, working with XXXX .</p><p>I'm currently working as a  <strong>Software Development Engineer</strong> at Thinktum. Before that, I was a SDE @ Navblue, an Airbus Company. I'm <strong>originally from Bangladesh</strong> and now <strong>living in Toronto, Canada</strong> with my lovely wife.</p><p>I love working with new technologies, building Softwares & Products, teaching & dark-mode</strong>, open source, and side projects. When I'm not working, I like running, watching movies, and <strong>eating cheese</strong>.</p>",
+    tagline: 'Learn. Build. Repeat.',
+    image: '/static/images/evan-pp.jpg',
     gradientColor: 'pink-purple',
     selectionColor: 'pink'
   }
@@ -27,8 +27,8 @@ function About(props) {
     return <div className="about">
       <div className="about-section">
         <Image
-          alt="Zeno"
-          src="/static/images/zeno-bw.jpg"
+          alt="Evan"
+          src="/static/images/evan-pp.jpg"
           width="336"
           height="336"
           placeholder="blur"
