@@ -25,6 +25,11 @@ export default function Footer() {
       url: 'https://instagram.com/zenorocha',
       icon: 'ri-instagram-line'
     },
+    {
+      title: 'Stuff',
+      url: 'https://idkstuff.com',
+      icon: 'ri-fingerprint-fill'
+    },
   ]
 
   return <footer className="footer">
