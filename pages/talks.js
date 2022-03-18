@@ -21,7 +21,7 @@ export async function getStaticProps() {
 
 function Talks(props) {
   const renderFeatured = () => {
-    const featured = ['NEJS Conf', 'Nordic.JS', 'SFHTML5']
+    const featured = ['My Awesome Conference', 'MountTibidabo.JS', 'SFHTML5']
 
     return items
       .map(item => {
@@ -66,7 +66,7 @@ function Talks(props) {
   }
 
   const { title, image } = props
-  const description = `I gave my first talk in 2010 and felt in love with <strong>sharing knowledge</strong> publicly. Since then, I traveled to <strong>11 countries</strong> and gave more than <strong>${getTotalTalks()} talks</strong>. Want me to speak at your event? Hit me up!`
+  const description = `Say something about why you started giving talks!<strong>SERIOUSLY</strong> This is supposed to count the total talks data and spit out a number, did it spit out?<strong>${getTotalTalks()} is the total</strong>`
 
   return (
     <div className="single">
