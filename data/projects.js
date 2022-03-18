@@ -9,7 +9,7 @@ const items = [
       },
       {
         title: 'Awesome Inactive project title 2',
-        url: 'https://bytetalkpodcast.com',
+        url: 'https://Awesome Inactive project title 2.com',
         active: false,
       },
     ]
