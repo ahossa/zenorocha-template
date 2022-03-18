@@ -87,12 +87,12 @@ export default function CommandBar(props) {
       icon: <i className='ri-slideshow-2-line' style={iconStyle} />,
     },
     {
-      id: 'podcasts',
-      name: 'Podcasts',
+      id: 'stuffs',
+      name: 'Stuffs',
       shortcut: ['g', 'c'],
-      keywords: 'go-podcasts',
+      keywords: 'go-stuffs',
       section: 'Go To',
-      perform: () => (router.push('/podcasts')),
+      perform: () => (router.push('/stuff')),
       icon: <i className='ri-mic-line' style={iconStyle} />,
     },
     {
