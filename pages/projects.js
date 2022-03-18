@@ -9,7 +9,7 @@ import items from '../data/projects'
 export async function getStaticProps() {
   const meta = {
     title: 'Projects // Zeno Rocha',
-    tagline: 'Work. Hobby. Open Source.',
+    tagline: 'My. Dragon. Open Source.',
     image: '/static/images/projects-bw.jpg',
     gradientColor: 'cyan-green',
     selectionColor: 'green',
@@ -21,10 +21,10 @@ export async function getStaticProps() {
 function Projects(props) {
   const renderFeatured = () => {
     const featured = [
-      'Dracula PRO',
-      'Clipboard.js',
-      'LeCheese',
-      '14 Habits'
+      'Featured PRO',
+      'YouAwesomeStuffStuff.js',
+      'Featured PRO 2',
+      'Awesome project that you did in 2020'
     ]
 
     return items
@@ -69,7 +69,7 @@ function Projects(props) {
   }
 
   const { title, image } = props
-  const description = `I'm obsessed with side projects and <strong>building in public</strong>. Here you can navigate to <strong>${getTotalProjects()} different</strong> websites, apps, and libraries I built. Some projects are still active, others have been discontinued.`
+  const description = `Put some epic description to your projects that's gonna catch em all & slay em all. You gotta catch em all !!!!!`
 
   return (
     <div className="single">
