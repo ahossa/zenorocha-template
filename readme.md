@@ -1,11 +1,7 @@
 ## About
-- This project is taken from ZenoRocha's personal website & has been stripped down to bare minimum for anyone to use this as a Template
+- This project is taken from ZenoRocha's personal website ```zenorocha.com``` & has been stripped down to bare minimum for anyone to use this as a Template
 - A huge shoutout to Zeno for building this amazing website
 
-
-# zenorocha.com
-
-> My personal website <3
 
 ## Technology stack
 
